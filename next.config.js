@@ -4,7 +4,7 @@ const nextConfig = {
   assetPrefix: isProd ? "/napolitain.github.io/" : "",
   images: {
     loader: 'imgix',
-    path: '/',
+    path: '',
   },
 }
 
