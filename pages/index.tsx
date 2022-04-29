@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Tags from "../components/tags";
 import Playground from "../components/playground";
 
 const Home: NextPage = () => {
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
           I probably know the technologies you are looking for.
         </p>
         
+        <Tags></Tags>
         <Playground></Playground>
 
       </main>
