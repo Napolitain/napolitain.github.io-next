@@ -72,6 +72,9 @@ const Tags: NextPage = () => {
       <p className={styles.card}>
         CI/CD
       </p>
+      <p className={styles.card}>
+        Open source
+      </p>
     </div>
   )
 }
